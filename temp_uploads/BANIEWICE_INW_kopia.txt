@@ -1,0 +1,90 @@
+﻿1. DANE ODBIORNIKA RUCHOMEGO
+Producent i model odbiornika: Leica CS10
+Numer seryjny odbiornika: 2527321
+Producent i model anteny: 
+Numer seryjny anteny: 
+
+Wykorzystywana sieć stacji referencyjnych: 
+Nazwa użytkownika sieci: 
+Zapis surowych obserwacji: NIE
+
+2. USTAWIENIA POMIARU
+Układ współrzędnych: 2000/5
+Model elipsoidy: GRS 1980
+Półoś elipsoidy: 6378137.000000
+Spłaszczenie elipsoidy: 0.003353
+Model geoidy: PL-EVRF2007-NH
+Nazwa pliku: PL-EVRF2007-NH.GEM
+Układ odniesienia: ETRF2000
+
+2.1 Odwzorowanie
+Nazwa odwzorowania: Gauss-Kruger2000/5
+Typ: Poprzeczne Merkatora
+Y punktu głównego: 5500000.000000
+X punktu głównego: 0.000000
+Dług.p.głównego: 15°00'00"
+Szer.p.głównego: 0°00'00"
+Szerokość strefy: 2°58'12"
+Skala: 0.999923
+Interwał obserwacji: 1 sek.
+Kąt obcięcia horyzontu: 10º
+
+
+3. POMIARY SYTUACYJNO-WYSOKOŚCIOWE
+Data utworzenia obiektu: 2020-04-14 12:56
+Interwał obserwacji: 
+Miejsce: 
+Wykonawca: 
+
+Stacja referencyjna: RTCM-Ref 0107
+Współrzedne stacji z RTCM: X=5882160.230 Y=5450283.041 h=61.033
+Wykorzystany strumień poprawek: NAVGEO_MAC_3_1
+                                                               Pomiar punktów                                                                
+                          t            n       ΔX          ΔY          ΔZ          x           y          H     H ant  e sat PDOP  mp    mh  
+1                 2020-04-14 12:56    RTN    -5036.473   22186.523   -413.654 5881210.371 5473016.242   85.006  2.000  5  15  1.3 0.010 0.011
+2                 2020-04-14 12:57    RTN    -5037.355   22188.813   -413.436 5881210.710 5473018.682   85.014  2.000 10  15  1.3 0.009 0.011
+3                 2020-04-14 12:58    RTN    -5035.188   22189.868   -415.246 5881207.731 5473019.139   84.987  2.000 10  15  1.3 0.007 0.010
+4                 2020-04-14 12:59    RTN    -5034.297   22187.524   -415.459 5881207.399 5473016.645   84.980  2.000 10  15  1.3 0.008 0.010
+
+
+Stacja referencyjna: RTCM-Ref 0095
+Współrzedne stacji z RTCM: X=5890271.763 Y=5492194.960 H=50.737
+Wykorzystany strumień poprawek: NAVGEO_MAC_3_1
+                                                               Pomiar punktów                                                                
+                          t            n       ΔX          ΔY          ΔZ          x           y          H     H ant  e sat PDOP  mp    mh  
+5                 2020-04-14 13:06    RTN    11931.415  -16406.792  -5486.799 5881157.701 5473260.837   83.129  2.000 10  14  1.4 0.013 0.012
+6                 2020-04-14 13:07    RTN    11929.263  -16407.845  -5485.034 5881160.641 5473260.377   83.129  2.000 10  14  1.4 0.010 0.010
+7                 2020-04-14 13:08    RTN    11930.191  -16410.126  -5485.240 5881160.272 5473257.934   83.158  2.000 10  14  1.4 0.013 0.012
+8                 2020-04-14 13:08    RTN    11932.298  -16409.070  -5486.972 5881157.387 5473258.409   83.159  2.000 10  14  1.4 0.015 0.013
+9                 2020-04-14 13:14    RTN    12080.375  -16081.281  -5653.372 5880875.280 5473536.693   85.941  2.000 10  13  1.4 0.011 0.009
+10                2020-04-14 13:14    RTN    12079.380  -16079.031  -5653.087 5880875.755 5473539.124   85.932  2.000 10  13  1.4 0.014 0.011
+11                2020-04-14 13:15    RTN    12081.512  -16077.858  -5654.831 5880872.818 5473539.705   85.956  2.000 10  13  1.4 0.016 0.013
+12                2020-04-14 13:15    RTN    12082.495  -16080.140  -5655.121 5880872.357 5473537.246   85.950  2.000 10  13  1.9 0.020 0.012
+RP78.60           2020-04-14 13:28    RTN    10545.769  -16662.948  -4435.821 5882911.916 5473372.015   78.818  2.000 10  11  2.2 0.020 0.018
+RP78.60           2020-04-14 13:28    RTN    10545.756  -16662.931  -4435.809 5882911.930 5473372.035   78.822  2.000 10  11  2.2 0.016 0.014
+RP78.60                              uśred                                    5882911.925 5473372.027   78.821                               
+E1                2020-04-14 13:33    RTN    10598.059  -16639.782  -4479.691 5882840.396 5473380.852   77.652  2.000  5   7  3.1 0.019 0.024
+E2                2020-04-14 13:33    RTN    10597.539  -16639.739  -4479.613 5882840.835 5473381.027   77.418  2.000  4   6  5.5 0.024 0.041
+E3                2020-04-14 13:35    RTN    10589.563  -16647.856  -4471.270 5882853.685 5473375.255   78.222  2.000  5   7  2.8 0.034 0.045
+E4                2020-04-14 13:35    RTN    10576.082  -16662.275  -4457.755 5882875.196 5473364.821   79.005  2.000  5  10  2.4 0.016 0.020
+E5                2020-04-14 13:36    RTN    10567.171  -16670.950  -4449.747 5882888.682 5473358.747   78.914  2.000  5   6  4.6 0.040 0.032
+E6                2020-04-14 13:36    RTN    10565.963  -16672.926  -4448.605 5882890.709 5473357.151   78.825  2.000  5   8  2.8 0.029 0.037
+E7                2020-04-14 13:38    RTN    10557.958  -16680.489  -4441.266 5882902.863 5473351.918   78.893  2.000  6   5 11.9 0.066 0.077
+E8                2020-04-14 13:40    RTN    10547.831  -16697.308  -4430.451 5882920.659 5473338.295   79.105  2.000  5  12  1.9 0.017 0.021
+E9                2020-04-14 13:41    RTN    10545.230  -16694.930  -4430.341 5882922.241 5473341.261   78.041  2.000  5   6  5.0 0.027 0.043
+
+
+
+Objaśnienia skrótów:
+k - punkt kontrolny pomierzony za pomocą pomiarów GNSS
+t - czas rozpoczęcia pomiaru punktu
+n - typ rozwiązania: RTK/RTN/DGNSS/Nawig.
+ΔX, ΔY, ΔZ - przyrosty współrzędnych kartezjańskich w układzie WGS84
+x, y - współrzędne w lokalnym układzie współrzędnych
+H - wysokość normalna lub elipsoidalna
+H ant - wysokość tyczki
+e - liczba epok/czas pomiaru na punkcie
+sat - liczba śledzonych satelitów, na podstawie których została wyznaczona pozycja
+PDOP - parametr rozmieszczenia geometrycznego satelitów
+mp - (Root Mean Square) odchylenie standardowe współrzędnych płaskich 1σ (poziom ufności 68%) w metrach
+mh - (Root Mean Square) odchylenie standardowe wysokości 1σ (poziom ufności 68%) w metrach

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Operat - baza i generowanie dokumentów</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+  <body>
+    <h1>
+       Operat - baza i generowanie dokumentów
+    </h1>
+<h3>Wprowadź dane nowej roboty</h3>
+<BR>
+
+
+<form action = "\nowa_robota" method = "POST" enctype = "multipart/form-data">
+ <div class="form-group">
+     <label>Identyfikator pracy</label>
+     <input type="txt" class="form-control" id="idpracy" name="idpracy" placeholder="id pracy">
+  </div>
+   <div class="form-group">
+       <label>Województwo</label>
+       <input type="txt" class="form-control" id="wojew" name="wojew" placeholder="województwo">
+  </div>
+     <div class="form-group">
+         <label>Powiat</label>
+         <input type="txt" class="form-control" id="powiat" name="powiat" placeholder="powiat">
+  </div>
+     <div class="form-group">
+         <label>Jednostka ewidencyjna</label>
+         <input type="txt" class="form-control" id="jdnewid" name="jdnewid" placeholder="320143_5 Nazwa">
+  </div>
+     <div class="form-group">
+         <label>Obręb</label>
+         <input type="txt" class="form-control" id="obreb" name="obreb" placeholder="00XX Obręb">
+  </div>
+     <div class="form-group">
+         <label>Obiekt</label>
+         <input type="txt" class="form-control" id="obiekt" name="obiekt" placeholder="Miasto, ulica nr, dzi">
+  </div>
+     <div class="form-group">
+         <label>Działki</label>
+         <input type="txt" class="form-control" id="dzialki" name="dzialki" placeholder="dz. .....">
+  </div>
+  <BR>
+     <BR>
+      <BR>
+    <div class="form-group">
+         <input type = "submit" vaule="Zapisz"/>
+  </div>
+          </form>
+
+
+ <a href="\"><h3>Powrót do strony głównej</h3></a>
+
+</body>
+</html>

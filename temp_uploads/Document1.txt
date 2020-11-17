@@ -1,0 +1,109 @@
+22-2_2003.txt czesc=4_65
+22-6_2003.txt czesc=1_65
+22-8_2003.txt czesc=1_65
+22-9_2003.txt czesc=2_65
+22-10_2003.txt czesc=4_65
+22-11_2003.txt czesc=4_65
+22-12_2003.txt czesc=4_65
+22-15_2003.txt czesc=2_65
+22-16_2003.txt czesc=1_65
+22-18_2003.txt czesc=1_65
+22-19_2003.txt czesc=1_65
+22-21_2003.txt czesc=2_65
+22-24_2003.txt czesc=1_65
+22-25_2003.txt czesc=4_65
+22-31_2003.txt czesc=2_65
+22-32_2003.txt czesc=2_65
+22-33_2003.txt czesc=1_65
+22-35_2003.txt czesc=4_65
+22-35_2003_etap2.txt czesc=4_65
+22-36_2003.txt czesc=1_65
+22-37_2003.txt czesc=4_65
+22-38_2003.txt czesc=1_65
+22-40_2003.txt czesc=1_65
+22-41_2003.txt czesc=1_65
+22-47_2003.txt czesc=2_65
+22-48_2003.txt czesc=1_65
+22-49_2003.txt czesc=2_65
+22-51_2003.txt czesc=1_65
+22-52_2003.TXT czesc=2_65
+22-54_2003.txt czesc=2_65
+22-56_2003.txt czesc=1_65
+22-58_2003.txt czesc=1_65
+22-58_2004.txt czesc=1_65
+22-59_2003.txt czesc=4_65
+22-59_2004.txt czesc=4_65
+22-61_2003.txt czesc=2_65
+22-70_2003.txt czesc=1_65
+22-71_2003.txt czesc=1_65
+22-72_2003.txt czesc=4_65
+22-73_2002.txt czesc=1_65
+22-74_2003.txt czesc=1_65
+22-77_2003.txt czesc=2_65
+22-77_2005.txt czesc=1_65
+22-78_2003.txt czesc=1_65
+22-81_2003.txt czesc=1_65
+22-84_2003.txt czesc=1_65
+22-85_2003.txt czesc=1_65
+22-86_2003.txt czesc=1_65
+22-87_2003.txt czesc=1_65
+22-91_2003.txt czesc=1_65
+22-92_2003.txt czesc=1_65
+22-97_2003.txt czesc=1_65
+22-99_2003.txt czesc=1_65
+34-37_2004.txt czesc=3_65
+przetarzany plik: 22-2_2003.txt
+przetarzany plik: 22-6_2003.txt
+przetarzany plik: 22-8_2003.txt
+przetarzany plik: 22-9_2003.txt
+przetarzany plik: 22-10_2003.txt
+przetarzany plik: 22-11_2003.txt
+przetarzany plik: 22-12_2003.txt
+przetarzany plik: 22-15_2003.txt
+przetarzany plik: 22-16_2003.txt
+przetarzany plik: 22-18_2003.txt
+przetarzany plik: 22-19_2003.txt
+przetarzany plik: 22-21_2003.txt
+przetarzany plik: 22-24_2003.txt
+przetarzany plik: 22-25_2003.txt
+przetarzany plik: 22-31_2003.txt
+przetarzany plik: 22-32_2003.txt
+przetarzany plik: 22-33_2003.txt
+przetarzany plik: 22-35_2003.txt
+przetarzany plik: 22-35_2003_etap2.txt
+przetarzany plik: 22-36_2003.txt
+przetarzany plik: 22-37_2003.txt
+przetarzany plik: 22-38_2003.txt
+przetarzany plik: 22-40_2003.txt
+przetarzany plik: 22-41_2003.txt
+przetarzany plik: 22-47_2003.txt
+przetarzany plik: 22-48_2003.txt
+przetarzany plik: 22-49_2003.txt
+przetarzany plik: 22-51_2003.txt
+przetarzany plik: 22-52_2003.TXT
+przetarzany plik: 22-54_2003.txt
+przetarzany plik: 22-56_2003.txt
+przetarzany plik: 22-58_2003.txt
+przetarzany plik: 22-58_2004.txt
+przetarzany plik: 22-59_2003.txt
+przetarzany plik: 22-59_2004.txt
+przetarzany plik: 22-61_2003.txt
+przetarzany plik: 22-70_2003.txt
+przetarzany plik: 22-71_2003.txt
+przetarzany plik: 22-72_2003.txt
+przetarzany plik: 22-73_2002.txt
+przetarzany plik: 22-74_2003.txt
+przetarzany plik: 22-77_2003.txt
+przetarzany plik: 22-77_2005.txt
+przetarzany plik: 22-78_2003.txt
+przetarzany plik: 22-81_2003.txt
+przetarzany plik: 22-84_2003.txt
+przetarzany plik: 22-85_2003.txt
+przetarzany plik: 22-86_2003.txt
+przetarzany plik: 22-87_2003.txt
+przetarzany plik: 22-91_2003.txt
+przetarzany plik: 22-92_2003.txt
+przetarzany plik: 22-97_2003.txt
+przetarzany plik: 22-99_2003.txt
+przetarzany plik: 34-37_2004.txt
+sprawdŸ wspó³rzêdne jakas jest poza zakresem opracowania w pliku: 22-37_2003.txt

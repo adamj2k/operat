@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Operat - baza i generowanie dokumentów</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+<body>
+    <h1>
+       Operat - baza i generowanie dokumentów
+    </h1>
+    
+    <div>
+          <h1>{{ rob.idpracy }}</h1>
+          <p>{{ rob.obreb }}, {{ rob.obiekt }}</p>
+
+      </div>
+<BR>
+
+{% for w in wynik %}
+    {{w|safe}}
+{% endfor %}
+
+
+ <a href="\generuj"><h3>Powrót</h3></a>
+
+
+</body>
+</html>
