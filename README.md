@@ -1,0 +1,2 @@
+# operat
+generowanie dokumentacji
