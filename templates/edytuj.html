@@ -9,54 +9,53 @@
     <h1>
        Operat - baza i generowanie dokumentów
     </h1>
-<h3>Wprowadź dane nowej roboty</h3>
+<h3>Edytuj dane roboty {{ rob.idpracy}}</h3>
 <BR>
-
-
-<form action = "\nowa_robota" method = "POST" enctype = "multipart/form-data">
+<form action = "\edytuj\{{ rob.idpracy }}" method = "POST">
  <div class="form-group">
+
      <label>Identyfikator pracy</label>
-     <input type="txt" class="form-control" id="idpracy" name="idpracy" placeholder="id pracy">
+     <input type="txt" class="form-control" id="idpracy" name="idpracy" value="{{ rob.idpracy }}" >
   </div>
    <div class="form-group">
        <label>Województwo</label>
-       <input type="txt" class="form-control" id="wojew" name="wojew" placeholder="województwo">
+       <input type="txt" class="form-control" id="wojew" name="wojew"  value="{{ rob.wojew }}">
   </div>
      <div class="form-group">
          <label>Powiat</label>
-         <input type="txt" class="form-control" id="powiat" name="powiat" placeholder="powiat">
+         <input type="txt" class="form-control" id="powiat" name="powiat" value="{{ rob.powiat }}">
   </div>
      <div class="form-group">
          <label>Jednostka ewidencyjna</label>
-         <input type="txt" class="form-control" id="jdnewid" name="jdnewid" placeholder="320143_5 Nazwa">
+         <input type="txt" class="form-control" id="jdnewid" name="jdnewid" value="{{ rob.jdnewid }}">
   </div>
      <div class="form-group">
          <label>Obręb</label>
-         <input type="txt" class="form-control" id="obreb" name="obreb" placeholder="00XX Obręb">
+         <input type="txt" class="form-control" id="obreb" name="obreb" value="{{ rob.obreb }}">
   </div>
      <div class="form-group">
          <label>Obiekt</label>
-         <input type="txt" class="form-control" id="obiekt" name="obiekt" placeholder="Miasto, ulica nr, dzi">
+         <input type="txt" class="form-control" id="obiekt" name="obiekt" value="{{ rob.obiekt }}">
   </div>
      <div class="form-group">
          <label>Działki</label>
-         <input type="txt" class="form-control" id="dzialki" name="dzialki" placeholder="dz. .....">
+         <input type="txt" class="form-control" id="dzialki" name="dzialki" value="{{ rob.dzialki }}">
   </div>
   <div class="form-group">
            <label>Data sporządzenia operatu</label>
-           <input type="txt" class="form-control" id="data_operat" name="data_operat" placeholder="RRRR-MM-DD">
+           <input type="txt" class="form-control" id="data_operat" name="data_operat" value="{{ rob.data_operat }}">
   </div>
   <div class="form-group">
              <label>Obszar akualizacji</label>
-             <input type="txt" class="form-control" id="obszar" name="obszar" placeholder="x.xxxx ha">
+             <input type="txt" class="form-control" id="obszar" name="obszar" value="{{ rob.obszar }}">
   </div>
   <div class="form-group">
              <label>Data rozpoczęcia prac</label>
-             <input type="txt" class="form-control" id="pocz" name="pocz" placeholder="RRRR-MM-DD">
+             <input type="txt" class="form-control" id="pocz" name="pocz" value="{{ rob.pocz }}">
   </div>
   <div class="form-group">
              <label>Kierownik prac</label>
-             <input type="txt" class="form-control" id="kierownik" name="kierownik" placeholder="Imię Nazwisko nr upr. zakres">
+             <input type="txt" class="form-control" id="kierownik" name="kierownik" placeholder="{{ rob.kierownik }}">
   </div>
   <div class="form-group">
              <label>Licencja - dla prac zgłoszonych przed 31.07.2020</label>
@@ -110,15 +109,16 @@
              <label>Zakres baz które były aktualizowane, modyfikowane.</label>
              <input type="txt" class="form-control" id="zakresbaz" name="zakresbaz" placeholder="BDOT500, GESUT, EGiB">
 </div>
+
      <BR>
       <BR>
     <div class="form-group">
          <input type = "submit" vaule="Zapisz"/>
   </div>
-          </form>
+    </form>
 
 
- <a href="\"><h3>Powrót do strony głównej</h3></a>
+ <a href="\przeglad"><h3>Powrót do strony głównej</h3></a>
 
 </body>
 </html>

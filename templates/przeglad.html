@@ -1,45 +1,65 @@
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Operat - baza i generowanie dokumentów</title>
     <link rel="stylesheet" type="text/css" href="static/style.css">
   </head>
   <body>
-    <h1>
-       Operat - baza i generowanie dokumentów
-    </h1>
-<h3>Przeglad robot</h3>
-<BR>
-    <table border=1>
-            <tr>
-	        <td>LP</td>
-	<td>ID pracy</td>
-	<td>wojew.</td>
-	<td>powiat</td>
-	<td>jdn. ewid.</td>
-	<td>obreb</td>
-	<td>obiekt</td>
-	<td>Kliknij po szczegóły</a></td>
-        </tr>
-    {% for l in lista %}
+    <h1> Operat - baza i generowanie dokumentów </h1>
+    <h3>Przeglad robot</h3>
+    <br>
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul class=flashes>
+      {% for message in messages %}
+         <li>{{ message }}</li>
+            {% endfor %}
+                </ul>
+           {% endif %}
+              {% endwith %}
+           {% block body %}{% endblock %}
+    <table border="1">
+      <tbody>
         <tr>
-        <td>{{ l.ID }}</td>
-<td>{{ l.idpracy }}</td>
-<td>{{ l.wojew}}</td>
-<td>{{ l.powiat }}</td>
-<td>{{ l.jdnewid }}</td>
-<td>{{ l.obreb }}</td>
-<td>{{ l.obiekt}}</td>
-<td><a href="/roboty/{{ l.idpracy }}">{{ l.idpracy }}</a></td>
+          <td>LP</td>
+          <td>ID pracy</td>
+          <td>wojew.</td>
+          <td>powiat</td>
+          <td>jdn. ewid.</td>
+          <td>obreb</td>
+          <td>obiekt</td>
+          <td>działki</td>
+          <td>data_operat</td>
+          <td>obszar</td>
+          <td>początek prac</td>
+          <td>kierownik</td>
+          <td>Kliknij po szczegóły</td>
+          <td>EDYTUJ</td>
         </tr>
-         {% endfor %}
+         {% for l in lista %}
+        <tr>
+          <td>{{ l.ID }}</td>
+          <td>{{ l.idpracy }}</td>
+          <td>{{ l.wojew}}</td>
+          <td>{{ l.powiat }}</td>
+          <td>{{ l.jdnewid }}</td>
+          <td>{{ l.obreb }}</td>
+          <td>{{ l.obiekt}}</td>
+          <td>{{ l.dzialki}}</td>
+          <td>{{ l.data_operat}}</td>
+          <td>{{ l.obszar}}</td>
+          <td>{{ l.pocz}}</td>
+          <td>{{ l.kierownik}}</td>
+          <td><a href="/roboty/{{ l.idpracy  }}">{{ l.idpracy }}</a></td>
+           <td><a href="/edytuj/{{ l.idpracy }}">{{ l.idpracy }} EDYTUJ</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+
     </table>
 
-
-
-
-
- <a href="\"><h3>Powrót do strony glównej</h3></a>
-
-</body>
+    <a href="/">
+      <h3>Powrót do strony glównej</h3>
+    </a>
+  </body>
 </html>

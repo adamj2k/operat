@@ -1,4 +1,3 @@
-﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -9,50 +8,58 @@
     <h1>
        Operat - baza i generowanie dokumentów
     </h1>
-<h3>Wprowadź dane nowej roboty</h3>
+<h3>Edytuj dane roboty {{ robota.idpracy}}</h3>
 <BR>
 
-
-<form action = "\nowa_robota" method = "POST" enctype = "multipart/form-data">
+    <form action="/edytuj" method="Post">
+      <select name="rob" method="GET">
+        {% for rob in lista %}
+        <option value="{{ rob.idpracy }}">{{ rob.idpracy }}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">Generuj</button> 
+  
+    
  <div class="form-group">
+
      <label>Identyfikator pracy</label>
-     <input type="txt" class="form-control" id="idpracy" name="idpracy" placeholder="id pracy">
+     <input type="txt" class="form-control" id="idpracy" name="idpracy" value="{{ robota.idpracy }}" >
   </div>
    <div class="form-group">
        <label>Województwo</label>
-       <input type="txt" class="form-control" id="wojew" name="wojew" placeholder="województwo">
+       <input type="txt" class="form-control" id="wojew" name="wojew"  value="{{ robota.wojew }}">
   </div>
      <div class="form-group">
          <label>Powiat</label>
-         <input type="txt" class="form-control" id="powiat" name="powiat" placeholder="powiat">
+         <input type="txt" class="form-control" id="powiat" name="powiat" value="{{ robota.powiat }}">
   </div>
      <div class="form-group">
          <label>Jednostka ewidencyjna</label>
-         <input type="txt" class="form-control" id="jdnewid" name="jdnewid" placeholder="320143_5 Nazwa">
+         <input type="txt" class="form-control" id="jdnewid" name="jdnewid" value="{{ robota.jdnewid }}">
   </div>
      <div class="form-group">
          <label>Obręb</label>
-         <input type="txt" class="form-control" id="obreb" name="obreb" placeholder="00XX Obręb">
+         <input type="txt" class="form-control" id="obreb" name="obreb" value="{{ robota.obreb }}">
   </div>
      <div class="form-group">
          <label>Obiekt</label>
-         <input type="txt" class="form-control" id="obiekt" name="obiekt" placeholder="Miasto, ulica nr, dzi">
+         <input type="txt" class="form-control" id="obiekt" name="obiekt" value="{{ robota.obiekt }}">
   </div>
      <div class="form-group">
          <label>Działki</label>
-         <input type="txt" class="form-control" id="dzialki" name="dzialki" placeholder="dz. .....">
+         <input type="txt" class="form-control" id="dzialki" name="dzialki" value="{{ robota.dzialki }}">
   </div>
   <div class="form-group">
            <label>Data sporządzenia operatu</label>
-           <input type="txt" class="form-control" id="data_operat" name="data_operat" placeholder="RRRR-MM-DD">
+           <input type="txt" class="form-control" id="data_operat" name="data_operat" value="{{ robota.data_operat }}">
   </div>
   <div class="form-group">
              <label>Obszar akualizacji</label>
-             <input type="txt" class="form-control" id="obszar" name="obszar" placeholder="x.xxxx ha">
+             <input type="txt" class="form-control" id="obszar" name="obszar" value="{{ robota.obszar }}">
   </div>
   <div class="form-group">
              <label>Data rozpoczęcia prac</label>
-             <input type="txt" class="form-control" id="pocz" name="pocz" placeholder="RRRR-MM-DD">
+             <input type="txt" class="form-control" id="pocz" name="pocz" value="{{ robota.pocz }}">
   </div>
   <div class="form-group">
              <label>Kierownik prac</label>
@@ -117,8 +124,8 @@
   </div>
           </form>
 
-
- <a href="\"><h3>Powrót do strony głównej</h3></a>
+    
+     <a href="\"><h3>Powrót do strony głównej</h3></a>
 
 </body>
 </html>
